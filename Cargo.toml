@@ -1,0 +1,15 @@
+[package]
+name = "lettercalc"
+version = "1.0.0"
+authors = ["Toa Toastrejn <toa@toaaa.de>"]
+edition = "2024"
+description = "Small tool that calculates the average score from a list of ratings from 0.5 to 5."
+repository = "https://github.com/toaaa/lettercalc"
+license-file = "LICENSE.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.97"
+rayon = "1.10.0"
+clap = { version = "4.5.32", features = ["derive"] }
